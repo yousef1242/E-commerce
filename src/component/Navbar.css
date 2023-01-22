@@ -1,0 +1,41 @@
+
+
+.navbar .container form input{
+    box-shadow: 4px 1px 2px #777;
+    outline: none;
+    border: none;
+    padding: 6px 15px;
+    width: 400px;
+}
+.navbar .container form button{
+    position: absolute;
+    background: none;
+    top: 0;
+    background:#ffc107 ;
+    border-radius: 0px;
+    right:0px;
+    border: none;
+}
+.navbar .container form{
+    position: relative;
+    width: fit-content;
+}
+.navbar .container .Links-of-products{
+    margin-left: 20px;
+    font-size: 18px;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+    outline: none;
+    --bs-navbar-toggler-focus-width:0px;
+    border: 1px solid white;
+}
+
+.navbar-toggler-icon{
+    color: white!important;
+}
+@media (max-width: 992px) {
+    .navbar .container .Links-of-products{
+        margin-left: 0px;
+    }
+}
